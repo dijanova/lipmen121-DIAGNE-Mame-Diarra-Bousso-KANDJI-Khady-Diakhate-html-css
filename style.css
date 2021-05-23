@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2? famille=Girassol&famille=Nouvelle+Tegomin&famille=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? famille=Girassol&famille=Nouvelle+Tegomin&famille=Open+Sans: ital,wght@1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'itim', sans-serif;
+}
+.logo {
+    text-indent: -999999px;
+    background: url(dijanovalogo.jpeg);
+    width: 970px;
+    height: 1;
+}
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid #ff8c00;
+}
+nav h1{
+    color: #ff8c00;
+    font-family:'Brush Script MT, Brush Script Std, cursive', sans-serif;
+    font-size: 40px;
+}
+nav .onglets{
+    margin-top: 4px;
+    margin-left: 510px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color:grey;
+    margin-right: 15px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 4px;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/salon.jpeg");
+    color: beige;
+    padding: 45px;
+}
+header h1{
+    font-family: 'Itim', sans-serif;
+    font-size: 60px;
+}
+header h3{
+    margin-top: -22px;
+    font-size: 22px ;
+    text-align: center;
+    border-bottom: white 2px solid;
+}
+header button{
+    background-color: orange;
+    color: white;
+    border:none;
+    cursor:pointer;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card .right img{
+    height: 215px;
+    width: 315px;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.main .content .card .left{
+    flex: 0 0 40%;
+    padding: 25px;
+    background-color: orange;
+    color: black;
+}
+
+.main .content .card .right img{
+    height: 215px;
+    width: 315px;
+    margin-top: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+    border-top: 10px solid orange;
+    background-color: orange;
+    color: black;
+    padding: 40px 110px;
+}
+footer h1{
+    font-family:'Itim';
+    border-bottom: 2px solid black;
+    width: 18%;
+    padding-bottom: 6px;
+}
+footer .activities{
+    margin-top: -9px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .activities .activity{
+    margin-right: 35px;
+    padding: 12px;
+}
+footer .Activities .activity p{
+    max-width: 305px;
+}
+footer #contact{
+    color:white;
+}
+@media screen and (max-width:700px){
+    nav .onglets{
+        margin-left: 1px;
+        margin-bottom: 18px; 
+    }
+    .main .card{margin:12px
+    }
+    .main .content .card .right img{
+        height: 1955%;
+        width: 95%;
+        margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    
+    footer {
+        padding: 32px;
+    }
