@@ -42,7 +42,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("images/salon.jpeg");
+    background-image: url("images/salon.jpeg");
     color: beige;
     padding: 45px;
 }
