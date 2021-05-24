@@ -8,7 +8,7 @@ body{
 logo {
     text-indent: -999999px;
     width: 970px;
-    background: url(images/salon.jpeg);
+    background: url("images/salon.jpeg");
     height: 1;
 }
 
@@ -42,7 +42,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("../images/salon.jpeg");
+    background: url("images/salon.jpeg");
     color: beige;
     padding: 45px;
 }
